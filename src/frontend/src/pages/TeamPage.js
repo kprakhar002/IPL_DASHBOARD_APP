@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import { MatchDetailCard } from '../components/MatchDetailCard'
 import { MatchSmallcard } from '../components/MatchSmallcard'
-
+//This component will go to the new branch created out of the main branch
 export const TeamPage = () => {
 
     const [team, setTeam] = useState({ matches: [] });
